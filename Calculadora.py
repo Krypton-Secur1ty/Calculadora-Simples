@@ -43,7 +43,7 @@ class Calculator(tk.Tk):
                 self.entry.insert(tk.END, str(result))
             except Exception:
                 self.entry.delete(0, tk.END)
-                self.entry.insert(tk.END, "Error")
+                self.entry.insert(tk.END, "B U G !!")
         elif value == "C":
             self.entry.delete(0, tk.END)
         else:
